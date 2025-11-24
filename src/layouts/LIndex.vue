@@ -4,9 +4,16 @@
 
 <template>
   <section>
-    <div class="header">
-      <nav>导航栏</nav>
-    </div>
+    <header class="header">
+      <nav>导航栏
+        <ul>
+          <li>Home</li>
+          <li>Notes</li>
+          <li>Statistic</li>
+        </ul>
+        <input type="text" id="Search">
+      </nav>
+    </header>
 
     <div class="body">
       主体
@@ -39,17 +46,34 @@ section {
 
   .header {
     min-height: 3rem;
-    background-color: #f0f0f0;
+    background-color: #242424;
+    display: flex;
+
+    nav {
+      display: flex;
+      list-style: none;
+
+      ul {
+        display: flex;
+        list-style: none;
+
+        li {
+          margin-right: 1rem;
+        }
+      }
+    }
+
+
   }
 
   .body {
     flex: 1;
-    background-color: #7b9e37;
+    background-color: #6d6d6d;
   }
 
   .footer {
     min-height: 3rem;
-    background-color: #ff6464;
+    background-color: #373737;
   }
 
 }
