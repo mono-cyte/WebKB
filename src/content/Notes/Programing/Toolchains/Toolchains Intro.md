@@ -13,7 +13,7 @@ tags:
 - wrapper
 通常指封装脚本/工具，简化复杂命令或集成多工具流程。
 
-示例：clang-cl是Clang对MSVC命令行接口的封装，兼容Visual Studio项目。
+示例：clang-cl 是 Clang 对 MSVC 命令行接口的封装，兼容 Visual Studio 项目
 
 - widl
 Windows IDL 编译器（Wine 项目工具），生成 COM/DCOM 接口代理存根代码

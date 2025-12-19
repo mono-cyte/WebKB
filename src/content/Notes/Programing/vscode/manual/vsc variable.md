@@ -24,13 +24,13 @@ tags:
 
 ```json
 "inputs": [
-        {
-            "id": "target",
-            "type": "promptString",
-            "description": "Enter extra parameters as name",
-            "default": ""
-        }
-    ]
+    {
+        "id": "target",
+        "type": "promptString",
+        "description": "Enter extra parameters as name",
+        "default": ""
+    }
+]
 ```
 
 ### type配置

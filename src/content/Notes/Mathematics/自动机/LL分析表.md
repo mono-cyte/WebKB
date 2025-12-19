@@ -10,7 +10,7 @@ tags:
 对于[[上下文无关文法]]:
 
 - 以 $V$ 内容 $A$ 标记行
-- 以 lookahead 内容 $a$ 标记列 : $a \in (T \cup \{\$\})^{n}$ 
+- 以 **lookahead 内容** $a$ 标记列 : $a \in (T \cup \{\$\})^{n}$ 
 
 > [!NOTION]
 > LL(1)文法: $n = 1$, $a$ 为单字符
@@ -25,4 +25,10 @@ a \in
 \text{FIRST}(w) \cup\text{FOLLOW}(A) - \{\lambda\} &|_{\lambda \in \text{FIRST}(w)}
 \end{cases}
 $$
+---
 
+形如:
+
+| $V$ | $\text{FIRST}(w)$ | $\text{FOLLOW}(A)$ |
+| :-: | :---------------: | :----------------: |
+| $A$ |        $w$        |        $w$         |

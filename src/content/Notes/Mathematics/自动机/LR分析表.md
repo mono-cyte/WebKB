@@ -30,3 +30,5 @@ $$
 \text{error} & \text{otherwise}
 \end{cases}
 $$
+
+简化: 使用序号代表产生式和状态

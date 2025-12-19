@@ -1,6 +1,6 @@
 ---
 title: {{title}}
-aliases:
+aliases: {{title}}
 categories:
 tags:
 ---

@@ -16,7 +16,7 @@ tags:
 
 
 
-## [SKSE](SKSE.md)
+## [SKSE](../Skyrim项目分析/SKSE.md)
 
 
 

@@ -33,3 +33,4 @@ $$
 \bigcup_{i = 1}^{n} \text{FIRST}(X_{i}) & |_{\forall x \in [1,n], X_{x} \overset{*}{\Rightarrow} \lambda}
 \end{cases}
 $$
+
